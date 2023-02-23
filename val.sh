@@ -27,20 +27,20 @@ echo 'export PATH=${PATH}:${GOROOT}/bin:${GOBIN}' >> $HOME/.bashrc
 
 mkdir $HOME/scripts
 cd $HOME/scripts
-wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/blockheight.sh $HOME/scripts
-wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/checkconsensus.sh $HOME/scripts
-wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/checknode.sh $HOME/scripts
-wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/checksync.sh $HOME/scripts
-wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/claimtokens.sh $HOME/scripts
-wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/compilepeerlist.sh $HOME/scripts
-wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/f2b.ssh $HOME/scripts
-wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/fw.sh $HOME/scripts
-wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/getdelegates.sh $HOME/scripts
-wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/getpeerinfo.sh $HOME/scripts
-wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/listpeers.sh $HOME/scripts
-wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/sendtokens.sh $HOME/scripts
-wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/ssh.sh $HOME/scripts
-wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/upgradego.sh $HOME/scripts
-wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/validatorsvoting.sh $HOME/scripts
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/blockheight.sh
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/checkconsensus.sh
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/checknode.sh
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/checksync.sh
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/claimtokens.sh
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/compilepeerlist.sh
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/f2b.ssh
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/fw.sh
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/getdelegates.sh
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/getpeerinfo.sh
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/listpeers.sh
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/sendtokens.sh
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/ssh.sh
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/upgradego.sh
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/validatorsvoting.sh
 mv $HOME/scripts/f2b.ssh $HOME/scripts/f2b.sh
 chmod u+x *
