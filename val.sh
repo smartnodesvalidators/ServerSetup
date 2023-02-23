@@ -24,3 +24,23 @@ echo 'export GOPATH=${HOME}/go' >> $HOME/.bashrc
 echo 'export GOBIN=$GOPATH/bin' >> $HOME/.bashrc
 echo 'export export GO111MODULE=on' >> $HOME/.bashrc
 echo 'export PATH=${PATH}:${GOROOT}/bin:${GOBIN}' >> $HOME/.bashrc
+
+mkdir $HOME/scripts
+cd $HOME/scripts
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/blockheight.sh $HOME/scripts
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/checkconsensus.sh $HOME/scripts
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/checknode.sh $HOME/scripts
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/checksync.sh $HOME/scripts
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/claimtokens.sh $HOME/scripts
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/compilepeerlist.sh $HOME/scripts
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/f2b.ssh $HOME/scripts
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/fw.sh $HOME/scripts
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/getdelegates.sh $HOME/scripts
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/getpeerinfo.sh $HOME/scripts
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/listpeers.sh $HOME/scripts
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/sendtokens.sh $HOME/scripts
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/ssh.sh $HOME/scripts
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/upgradego.sh $HOME/scripts
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/validatorsvoting.sh $HOME/scripts
+mv $HOME/scripts/f2b.ssh $HOME/scripts/f2b.sh
+chmod u+x *
