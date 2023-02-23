@@ -1,0 +1,1 @@
+BINARY q staking delegations-to VALIDATOR_ADDRESS -o json | jq '.delegation_responses[].delegation | { addr: .delegator_address, shares: (.shares | tonumber| floor / 1000000)}' | jq -c -s 'sort_by(.shares) | .[]'
