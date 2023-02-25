@@ -4,7 +4,7 @@ sudo apt-get update -y
 sudo apt-get install git make wget curl unzip jq lz4 -y
 sudo apt-get install fail2ban -y
 sudo apt-get install mlocate -y
-sudo apt install net-tools open-vm-tools -y
+# sudo apt install net-tools open-vm-tools -y
 sudo updatedb
 
 sudo su -c "echo 'fs.file-max = 65536' >> /etc/sysctl.conf"
