@@ -1,7 +1,6 @@
 #!/bin/sh
-sudo add-apt-repository ppa:longsleep/golang-backports -y
 sudo apt-get update -y
-sudo apt-get install git make wget curl unzip jq lz4 -y
+sudo apt-get install git make wget curl unzip jq lz4 gcc -y
 sudo apt-get install fail2ban -y
 sudo apt-get install mlocate -y
 # sudo apt install net-tools open-vm-tools -y
