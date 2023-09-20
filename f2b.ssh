@@ -1,3 +1,4 @@
+#!/bin/sh
 sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 sudo sed -i "s/port    = ssh/port    = 1609/" /etc/fail2ban/jail.local
 sudo sed -i "s/port     = ssh/port    = 1609/" /etc/fail2ban/jail.local
