@@ -34,6 +34,7 @@ wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/sen
 wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/ssh.sh
 wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/validatorsvoting.sh
 wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/netdata.sh
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/nodeexport.sh
 mv $HOME/scripts/f2b.ssh $HOME/scripts/f2b.sh
 cd $HOME/scripts
 chmod u+x *
