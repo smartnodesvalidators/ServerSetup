@@ -1,8 +1,6 @@
 #!/bin/sh
 sudo apt-get update -y
-sudo apt-get install git make wget curl unzip jq lz4 gcc -y
-sudo apt-get install fail2ban -y
-sudo apt-get install mlocate -y
+sudo apt-get install git make wget curl unzip jq lz4 gcc fail2ban mlocate-y
 sudo updatedb
 
 sudo su -c "echo 'fs.file-max = 65536' >> /etc/sysctl.conf"
@@ -36,10 +34,13 @@ wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/sen
 wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/ssh.sh
 wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/upgradego.sh
 wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/validatorsvoting.sh
+wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/netdata.sh
 mv $HOME/scripts/f2b.ssh $HOME/scripts/f2b.sh
+cd $HOME/scripts
 chmod u+x *
+./netdatainstall.sh
 
 cd $HOME
-wget https://go.dev/dl/go1.19.6.linux-amd64.tar.gz
-sudo tar -xvf go1.19.6.linux-amd64.tar.gz
+wget https://go.dev/dl/go1.20.8.linux-amd64.tar.gz
+sudo tar -xvf go1.20.8.linux-amd64.tar.gz
 sudo mv go /usr/local
