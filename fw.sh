@@ -1,3 +1,4 @@
+#!/bin/sh
 sudo ufw allow 1609/tcp
 sudo ufw allow 1317/tcp
 sudo ufw allow 80/tcp
