@@ -32,7 +32,6 @@ wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/get
 wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/listpeers.sh
 wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/sendtokens.sh
 wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/ssh.sh
-wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/upgradego.sh
 wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/validatorsvoting.sh
 wget https://raw.githubusercontent.com/smartnodesvalidators/ServerSetup/main/netdata.sh
 mv $HOME/scripts/f2b.ssh $HOME/scripts/f2b.sh
